@@ -6,7 +6,7 @@ The request was to create a set of three interconnected webpages to serve as a p
 
 ![Picture of Website](./portfolioapp/public/assets/pic-of-site.png)
 
-* [See Live Site](#)
+* [See Live Site](https://afternoon-temple-06204.herokuapp.com/)
 
 ## Key Pieces of Code
 
