@@ -1,7 +1,11 @@
 import React from "react";
+import Header from "../components/Header";
 
 const About = () => {
     return (
+        <div>
+        <Header display="none" />
+
         <section class="section">
             <div>
                 <h1 class="title">
@@ -22,6 +26,7 @@ const About = () => {
             </div>
 
         </section>
+        </div>
     )
 };
 

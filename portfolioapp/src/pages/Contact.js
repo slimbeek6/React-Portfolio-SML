@@ -1,17 +1,20 @@
 import React from "react";
+import Header from "../components/Header";
 
 const Contact = () => {
     return (
+        <div>
+            <Header display="none" />
         <div class="columns">
             <div class="card column is-full" id="contactPane">
                 
-                    <h4 class="subtitle">How to get in touch</h4>
+                    <h3 class="title">How to get in touch</h3>
                     
                     <br />
                     <div class="columns">
-                        <h5 id="emailSect" class="column is-one-third">Email: </h5>
-                        <h5 id="emailSect" class="column is-one-third">LinkedIn: </h5>
-                        <h5 id="emailSect" class="column is-one-third">Other: </h5>
+                        <h4 id="emailSect" class="column is-one-third subtitle" style={{textAlign: "left", marginLeft: "5%"}}><strong>Email: </strong></h4>
+                        <h4 id="emailSect" class="column is-one-third subtitle" style={{textAlign: "left", marginLeft: "2%"}}><strong>LinkedIn: </strong></h4>
+                        <h4 id="emailSect" class="column is-one-third subtitle" style={{textAlign: "left", marginLeft: "2%"}}><strong>Other: </strong></h4>
                     </div>
 
                     <div class="columns">
@@ -39,6 +42,7 @@ const Contact = () => {
                         </article>
                     </div>
             </div>
+        </div>
         </div>
     )
 };

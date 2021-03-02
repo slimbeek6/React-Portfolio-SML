@@ -1,9 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Header from "../components/Header";
 
 
 const Home = () => {
     return (
+      <div>
+        <Header />
       <div class="tile is-ancestor" >
         <div class="tile is-parent" >
             <article class="tile is-child box" >
@@ -28,6 +31,7 @@ const Home = () => {
             <img src="../assets/contact.png" alt="Icon of contacts list" />
             </article>
         </div>
+      </div>
       </div>
     )
 };
