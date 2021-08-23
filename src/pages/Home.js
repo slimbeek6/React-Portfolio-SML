@@ -13,14 +13,18 @@ const Home = () => {
             <Link to={"/portfolio"} class="title">Portfolio</Link>
             <br></br>
             <p class="subtitle">My Work</p>
-            <img src="../assets/job-hunt.jpg" alt="An example of a project I created for logging job hunt data" />
+            <Link to={"/portfolio"}>
+              <img src="../assets/job-hunt.jpg" alt="An example of a project I created for logging job hunt data" id="portfolioimg"/>
+            </Link>
             </article>
         </div>
         <div class="tile is-parent" id="About-box">
             <article class="tile is-child box">
             <Link to={"/about"} class="title">About Me</Link>
             <br /><br />
-            <img src="../assets/self.jpg" alt="Photo of myself and my sister with our dogs" id="selfphoto" />
+            <Link to={"/about"}>
+              <img src="../assets/self.jpg" alt="Photo of myself and my sister with our dogs" id="selfphoto" />
+            </Link>
             </article>
         </div>
         <div class="tile is-parent" id="Contact-box">
@@ -28,7 +32,9 @@ const Home = () => {
             <Link to={"/contact"} class="title">Contact</Link>
             <br/>
             <p class="subtitle">How to get in touch</p>
-            <img src="../assets/contact.png" alt="Icon of contacts list" />
+            <Link to={"/contact"}>
+              <img src="../assets/contact.png" alt="Icon of contacts list" id="contactimg"/>
+            </Link>
             </article>
         </div>
       </div>
