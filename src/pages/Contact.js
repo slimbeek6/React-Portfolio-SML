@@ -21,7 +21,7 @@ const Contact = () => {
                         <form class="column is-one-third">
                             <div class="form-group columns">
                                 <label for="InputEmail" class="column is-one-third">Email Subject: </label>
-                                <input type="email" class="form column is-half" id="InputEmail" aria-describedby="emailHelp" placeholder="Email" />
+                                <input type="email" class="form column is-half" id="InputEmail" aria-describedby="emailHelp" placeholder="Subject" />
                             </div>
                             <br />
                             <div class="form-group columns">
