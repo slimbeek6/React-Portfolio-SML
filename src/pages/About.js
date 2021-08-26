@@ -1,12 +1,12 @@
 import React from "react";
-import Header from "../components/Header";
+
 
 const About = () => {
     return (
         <div>
-        <Header display="none" />
+        <br />
 
-        <section class="section">
+        <section class="section" id="aboutPane">
             <div>
                 <h1 class="title">
                     About Me

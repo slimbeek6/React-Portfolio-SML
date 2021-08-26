@@ -1,14 +1,14 @@
 import React from "react";
 import Project from "../components/Project";
-import Header from "../components/Header";
+
 
 
 const Portfolio = () => {
     
     return (
-        <div>
-        <Header display="none"/>
-            <div className="container">
+        <div id="portfolioPane">
+
+            <div className="container" >
                 <h2 className="title">Portfolio</h2>
 
                 <Project title="Job Hunt Logger" url="https://fathomless-atoll-85765.herokuapp.com/" img="../assets/job-hunt.jpg" alt="Screenshot of a project website that allows users to track their job hunt" description="In this project, I worked with two other coders to build a dashboard that would be able to provide a user with  a way to track their job search once our coding class ended. This is a full stack web application that empowers a user to better organize their job search. The user can create a unique profile, add job applications, track their status, update with notes, and compare data. The application was built using an MVC framework with Handlebars, Express, mySQL, and Sequelize."/>
