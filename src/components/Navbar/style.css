@@ -4,5 +4,9 @@
 }
 
 .navbar {
-    background-color: aliceblue;
+    background-color: rgb(224, 238, 255);
+}
+
+#navbarNav {
+    justify-content: right;
 }
