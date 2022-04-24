@@ -6,7 +6,7 @@ function Nav() {
 
   return (
     
-    <nav class="navbar navbar-expand-lg navbar-light ">
+    <nav class="navbar navbar-expand-lg sticky-top navbar-light ">
         <div class="container-fluid">
             <a class="navbar-brand" href="/">Home</a>
             <div class="collapse navbar-collapse" id="navbarNav" >
