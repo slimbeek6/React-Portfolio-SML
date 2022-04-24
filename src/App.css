@@ -28,7 +28,7 @@
 
 .portfolioCard {
   padding: 1rem;
-  background-color: lightcyan;
+  
 }
 
 .cardtext {
@@ -45,6 +45,7 @@
 
 #portfolioPane {
   background-color: rgb(176, 250, 250);
+  padding: 2rem;
 }
 
 #aboutMe {
@@ -53,7 +54,6 @@
 
 .card {
   padding: 1rem;
-  background-color: rgb(176, 250, 250);
   border-style: none;
 }
 
@@ -70,5 +70,15 @@
 }
 
 .about-card {
+  padding: 2rem;
+}
+
+.evenProj {
+  background-color: lightcyan;
+  padding: 2rem;
+}
+
+.oddProj {
+  background-color: rgb(176, 250, 250);
   padding: 2rem;
 }

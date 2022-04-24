@@ -8,7 +8,7 @@ const Home = () => {
         
       
         <div class="row" >
-          <div class="card col-12" >
+          <div class="card col-12 oddProj" >
               <Link to={"/portfolio"} class="title"><span><h4 class="subtitle" >My Work</h4></span></Link>
               <br></br>
               <div class ="row">
@@ -19,7 +19,7 @@ const Home = () => {
                 <div class="col-6">lorem ipsum</div>
               </div>
           </div>
-          <div class="card col-12" id="About-box">
+          <div class="card col-12 evenProj" >
               <Link to={"/about"} class="title"><span><h4 class="subtitle">About Me</h4></span></Link>
               <br />
               <div class="row">
@@ -43,7 +43,7 @@ const Home = () => {
                 </Link>
               </div>
           </div>
-          <div class="card col-12" id="Contact-box">              
+          <div class="card col-12 oddProj" id="Contact-box">              
               <Link to={"/contact"} class="title"><span><h4 class="subtitle">Get In Touch</h4></span></Link>
               <br/>
               
