@@ -13,7 +13,7 @@ const Home = () => {
               <Link to={"/about"} class="title"><span><h4 class="subtitle">About Me</h4></span></Link>
               <br />
               <Link to={"/about"} style={{justifyContent: "center"}}>
-                <img src="../assets/self.jpg" alt="Photo of myself and my sister with our dogs" id="selfphoto" class="homepageImg" />
+                <img src="../assets/self.jpg" alt="Photo of myself and my sister with our dogs" class="homepageImg" />
               </Link>
           </div>
           

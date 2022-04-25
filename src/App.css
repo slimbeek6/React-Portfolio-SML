@@ -3,10 +3,6 @@
   background-color: lightcyan;
 }
 
-#selfphoto {
-  max-width: 400px;
-}
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -22,13 +18,8 @@
   color: #61dafb;
 }
 
-.is-child {
-  background-color: rgb(176, 250, 250);
-}
-
 .portfolioCard {
-  padding: 1rem;
-  
+  padding: 1rem; 
 }
 
 .cardtext {
@@ -57,9 +48,6 @@
   border-style: none;
 }
 
-.homepageImg {
-  max-height: 12rem;
-}
 
 #About-box {
   background-color: lightcyan;
@@ -99,4 +87,44 @@
   padding: 1rem;
   margin: 0 1rem;
   border-radius: 1rem;
+}
+
+/* Images */
+@media only screen and (max-width: 999px) {
+  .homepageImg {
+    max-height: 6rem;
+    max-width: 4rem;
+  }
+
+  .aboutImg {
+    max-width: 8rem;
+  }
+
+  .cardImg {
+    max-width: 3rem;
+  }
+
+  .projCard {
+    display: inline-block;
+  }
+
+  .contactImg {
+    max-height: 4rem;
+  }
+}
+
+.cardImg {
+  max-width: 12rem;
+}
+
+.homepageImg {
+  max-height: 14rem;
+}
+
+#selfphoto {
+  max-width: 400px;
+}
+
+.contactImg {
+  max-width: 12rem;
 }

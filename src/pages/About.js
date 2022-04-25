@@ -14,7 +14,7 @@ const About = () => {
                     
                 <div class="row">
                     <div class="col-5 about-card">
-                        <img class="image" id="selfphoto" alt="Picture of myself and my sister with our dogs in Carmel" src="./assets/self.jpg" />
+                        <img class="aboutImg" alt="Picture of myself and my sister with our dogs in Carmel" src="./assets/self.jpg" />
                     </div>
                     <div class="col-6 about-card">
                     <p id="aboutMe">
@@ -36,32 +36,6 @@ const About = () => {
         
     )
 };
-
-
-{/* <div class="col-6">
-    <h4 class="title">My Career and Education</h4>
-    <h5 class="subtitle">Career</h5>
-    <ul class="homeList">
-        <li><span class="boldHome">Atlassian</span> - Senior Compensation Analyst</li>
-        <li><span class="boldHome">Facebook</span> - Compensation Analyst</li>
-        <li><span class="boldHome">Mars & Co</span> - Strategy Consultant</li>
-    </ul>
-    <h6 class="subtitle">Education</h6>
-    <ul class="homeList">
-        <li><span class="boldHome">UC Berkeley Extension</span> - Full-Stack Web Development Bootcamp</li>
-        <li><span class="boldHome">Vanderbilt University</span> - Applied Mathematics & Economics</li>
-    </ul>
-</div> */}
-
-
-{/* <div class="col-5 homeText" style={{marginLeft: 20}}>
-    <p >My coding journey began as a strategy consultant focused on providing data-driven solutions to complex business problems. This started with building low complexity relational databases in Microsoft Excel and Access, and slowly grew into SQL server driven databases and queries.  After years of building and implementing complex databases and data analytics around compensation at Facebook and Atlassian, I saw the next step for my analytics toolset would have to be more complex coding and database languages.  During the recent lockdowns around COVID-19, I attended a coding bootcamp through the UC Berkeley Extension Program, and am now continuing to learn and apply new languages and systems including:</p>
-    <ul>
-        <li>HTML, CSS, and Javascript</li>
-        <li>Sequelize, MongoDB, and Postgres</li>
-        <li>React, Ruby on Rails, and MVC Frameworks</li>
-    </ul>
-</div> */}
 
 
 export default About;

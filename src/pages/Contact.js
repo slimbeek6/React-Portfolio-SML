@@ -19,23 +19,23 @@ const Contact = () => {
 
                     {/* Links to contact information including images */}
                     <div class="row" >
-                        <article class="col-4 card" style={{background: "none"}}>
+                        <div class="col-4" style={{background: "none"}}>
                             <a href="mailto:shaun.limbeek@gmail.com">
-                                <img src="../assets/send-email.png" alt="Email being sent" id="sendemail" />
+                                <img src="../assets/send-email.png" alt="Email being sent" class="contactImg" />
                             </a>
-                        </article>
+                        </div>
 
-                        <article class="col-4 card" style={{background: "none"}}>
+                        <div class="col-4" style={{background: "none"}}>
                             <a href="https://www.linkedin.com/in/shaun-limbeek/">
-                                <img src="../assets/LI-logo.png" alt="LinkedIn logo" id="LI-logo" style={{maxWidth: "250px"}}/>
+                                <img src="../assets/LI-logo.png" alt="LinkedIn logo" class="contactImg" />
                             </a>
-                        </article>
+                        </div>
 
-                        <article class="col-4 card" style={{background: "none"}}>
+                        <div class="col-4" style={{background: "none"}}>
                             <a href="https://github.com/slimbeek6/">
-                                <img src="../assets/GitHub-logo.png" alt="Github logo" id="Github-logo" style={{maxWidth: "250px"}}/>
+                                <img src="../assets/GitHub-logo.png" alt="Github logo" class="contactImg" />
                             </a>
-                        </article>
+                        </div>
                     </div>
             </div>
         </div>
