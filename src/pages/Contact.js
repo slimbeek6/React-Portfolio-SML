@@ -18,20 +18,20 @@ const Contact = () => {
                     </div>
 
                     {/* Links to contact information including images */}
-                    <div class="row">
-                        <article class="col-4 card">
+                    <div class="row" >
+                        <article class="col-4 card" style={{background: "none"}}>
                             <a href="mailto:shaun.limbeek@gmail.com">
                                 <img src="../assets/send-email.png" alt="Email being sent" id="sendemail" />
                             </a>
                         </article>
 
-                        <article class="col-4 card">
+                        <article class="col-4 card" style={{background: "none"}}>
                             <a href="https://www.linkedin.com/in/shaun-limbeek/">
                                 <img src="../assets/LI-logo.png" alt="LinkedIn logo" id="LI-logo" style={{maxWidth: "250px"}}/>
                             </a>
                         </article>
 
-                        <article class="col-4 card">
+                        <article class="col-4 card" style={{background: "none"}}>
                             <a href="https://github.com/slimbeek6/">
                                 <img src="../assets/GitHub-logo.png" alt="Github logo" id="Github-logo" style={{maxWidth: "250px"}}/>
                             </a>

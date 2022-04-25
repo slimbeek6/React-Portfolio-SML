@@ -1,5 +1,7 @@
 .jumbotron {
     text-align: center;
-    background-color: rgb(224, 238, 255);
-    padding: 2px;
+    background-color: aqua;
+    padding: 2rem;
+    margin: 1rem 0;
+    border-radius: 1rem;
 }

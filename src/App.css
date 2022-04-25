@@ -4,7 +4,7 @@
 }
 
 #selfphoto {
-  max-width: 300px;
+  max-width: 400px;
 }
 
 .App-header {
@@ -58,7 +58,7 @@
 }
 
 .homepageImg {
-  max-height: 24rem;
+  max-height: 12rem;
 }
 
 #About-box {
@@ -67,6 +67,10 @@
 
 .homeList {
   text-align: left;
+}
+
+.boldHome {
+  font-weight: bold;
 }
 
 .about-card {
@@ -82,5 +86,17 @@
 .oddProj {
   background-color: rgb(176, 250, 250);
   padding: 1rem 2rem;
+  border-radius: 1rem;
+}
+
+.homeText {
+  text-align: left;
+  padding-left: 1rem;
+}
+
+.homeProj {
+  background-color: rgb(176, 250, 250);
+  padding: 1rem;
+  margin: 0 1rem;
   border-radius: 1rem;
 }

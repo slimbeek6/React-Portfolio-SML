@@ -3,9 +3,13 @@ import "./style.css";
 
 function Header (props) {
     return (
-        <header className="jumbotron">
-            <h2 className="subtitle" id="subtitle" style={{ display: props.display }}>Use the cards below to navigate the page</h2>
-        </header>
+        <div class="row">
+            <div class="col-1"></div>
+            <header className="jumbotron col-10">
+                <h2 className="Title" style={{ display: props.display }}>Welcome to Shaun Limbeek's Portfolio</h2>
+            </header>
+            <div class="col-1"></div>
+        </div>
     );
 }
 

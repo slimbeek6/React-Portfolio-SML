@@ -22,8 +22,13 @@ const About = () => {
                         <br/><br/>
                         After earning a BS in Mathematics and Economics from Vanderbilt University, I began a career in management and strategy consulting at a boutique firm named Mars & Co. During this time I worked for Mars on 4 different continents, with projects taking me to Brussels, Sao Paolo, Hong Kong, Chang'anzhen, and across the US and Canada.
                         <br/><br/>
-                        After five years on the road, I transitioned careers applying my modeling skills and business knowledge as a compensation analyst first for Facebook, then Atlassian. Since leaving Atlassian, I have started to learn and work with web development as a way to apply my analytical and systems based thinking.
+                        My coding journey began during my time as a strategy consultant focused on providing data-driven solutions to complex business problems. This started with building low complexity relational databases in Microsoft Excel and Access, and slowly grew into SQL server driven databases and queries.  After years of building and implementing complex databases and data analytics around compensation at Facebook and Atlassian, I saw the next step for my analytics toolset would have to be more complex coding and database languages.  During the recent lockdowns around COVID-19, I attended a coding bootcamp through the UC Berkeley Extension Program, and am now continuing to learn and apply new languages and systems including:
                     </p>
+                    <ul style={{textAlign: "left"}}>
+                        <li>HTML, CSS, and Javascript</li>
+                        <li>Sequelize, MongoDB, and Postgres</li>
+                        <li>React, Ruby on Rails, and MVC Frameworks</li>
+                    </ul>
                     </div>
                 </div>
             </div>
@@ -31,6 +36,32 @@ const About = () => {
         
     )
 };
+
+
+{/* <div class="col-6">
+    <h4 class="title">My Career and Education</h4>
+    <h5 class="subtitle">Career</h5>
+    <ul class="homeList">
+        <li><span class="boldHome">Atlassian</span> - Senior Compensation Analyst</li>
+        <li><span class="boldHome">Facebook</span> - Compensation Analyst</li>
+        <li><span class="boldHome">Mars & Co</span> - Strategy Consultant</li>
+    </ul>
+    <h6 class="subtitle">Education</h6>
+    <ul class="homeList">
+        <li><span class="boldHome">UC Berkeley Extension</span> - Full-Stack Web Development Bootcamp</li>
+        <li><span class="boldHome">Vanderbilt University</span> - Applied Mathematics & Economics</li>
+    </ul>
+</div> */}
+
+
+{/* <div class="col-5 homeText" style={{marginLeft: 20}}>
+    <p >My coding journey began as a strategy consultant focused on providing data-driven solutions to complex business problems. This started with building low complexity relational databases in Microsoft Excel and Access, and slowly grew into SQL server driven databases and queries.  After years of building and implementing complex databases and data analytics around compensation at Facebook and Atlassian, I saw the next step for my analytics toolset would have to be more complex coding and database languages.  During the recent lockdowns around COVID-19, I attended a coding bootcamp through the UC Berkeley Extension Program, and am now continuing to learn and apply new languages and systems including:</p>
+    <ul>
+        <li>HTML, CSS, and Javascript</li>
+        <li>Sequelize, MongoDB, and Postgres</li>
+        <li>React, Ruby on Rails, and MVC Frameworks</li>
+    </ul>
+</div> */}
 
 
 export default About;
