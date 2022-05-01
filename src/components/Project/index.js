@@ -15,17 +15,9 @@ function Project (props) {
                 <figure class={props.id}>
                     <a class="subtitle" href={props.url} target="_blank"><span><h3><strong>{props.title}</strong></h3></span></a>
                     <br/>
-                    
-                        <div class="projCard">  
-                            <img src={props.img} alt={props.alt} class="cardImg" />
-                        </div>
-                        <br/><br/>
-                        <div >
-                            <p class="cardtext">
-                                {props.description}
-                            </p>
-                        </div>
-                    
+                    <img src={props.img} alt={props.alt} class="cardImg" />
+                    <br/><br/>
+                    <p class="cardtext">{props.description}</p>
                 </figure>
             </div> 
         )

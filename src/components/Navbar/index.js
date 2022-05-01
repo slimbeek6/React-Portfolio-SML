@@ -6,10 +6,13 @@ function Nav() {
 
   return (
     
-    <nav class="navbar navbar-expand-lg sticky-top navbar-light ">
+    <nav class="navbar navbar-expand-sm sticky-top navbar-light ">
         <div class="container-fluid">
             <a class="navbar-brand" href="/">Home</a>
-            <div class="collapse navbar-collapse" id="navbarNav" >
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent" >
                 <ul class="navbar-nav">
                     <li class="nav-item">
                         <Link class="nav-link active" to={"/about"} >About</Link>
@@ -24,28 +27,6 @@ function Nav() {
             </div>
         </div>
     </nav>
-        
-        
-        
-        // <div class="navbar-brand">
-        //     <Link to={"/"}>
-        //         <h1 class="title" >Shaun Limbeek</h1>
-        //     </Link>
-        //     <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarRightSide">
-        //         <span aria-hidden="true"></span>
-        //         <span aria-hidden="true"></span>
-        //         <span aria-hidden="true"></span>
-        //     </a>
-        // </div>
-
-        // <div id="navbarRightSide" class="navbar-menu">
-        //     <div class="navbar-end">
-        //         <Link to={"/about"} class="navbar-item menuItem" >About</Link>
-        //         <Link to={"/portfolio"} class="navbar-item menuItem">Portfolio</Link>
-        //         <Link to={"/contact"} class="navbar-item menuItem" >Contact</Link>
-        //     </div>
-        // </div>
-    
   );
 }
 

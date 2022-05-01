@@ -22,6 +22,10 @@
   padding: 1rem; 
 }
 
+.projCard {
+  display: inline-block;
+}
+
 .cardtext {
   text-align: left;
 }
@@ -65,6 +69,9 @@
   padding: 2rem;
 }
 
+
+
+
 .evenProj {
   background-color: lightcyan;
   padding: 1rem 2rem;
@@ -90,29 +97,6 @@
 }
 
 /* Images */
-@media only screen and (max-width: 999px) {
-  .homepageImg {
-    max-height: 16rem;
-    max-width: 10rem;
-  }
-
-  .aboutImg {
-    max-width: 8rem;
-  }
-
-  .cardImg {
-    max-width: 3rem;
-  }
-
-  .projCard {
-    display: inline-block;
-  }
-
-  .contactImg {
-    max-height: 4rem;
-  }
-}
-
 .cardImg {
   max-width: 20rem;
   max-height: 20rem;
@@ -129,3 +113,25 @@
 .contactImg {
   max-width: 12rem;
 }
+
+/* Images for phones */
+@media only screen and (max-width: 999px) {
+  .homepageImg {
+    max-height: 16rem;
+    max-width: 10rem;
+  }
+
+  .aboutImg {
+    max-width: 8rem;
+  }
+
+  .cardImg {
+    max-width: 10rem;
+    max-height: 10rem;
+  }
+
+  .contactImg {
+    max-height: 4rem;
+  }
+}
+
