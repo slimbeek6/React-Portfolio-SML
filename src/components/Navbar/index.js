@@ -6,7 +6,7 @@ function Nav() {
 
   return (
     
-    <nav class="navbar navbar-expand-sm sticky-top navbar-light ">
+    <nav class="navbar navbar-expand-lg sticky-top navbar-light ">
         <div class="container-fluid">
             <a class="navbar-brand" href="/">Home</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

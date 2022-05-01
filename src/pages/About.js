@@ -7,6 +7,7 @@ function checkScreen () {
 
 const About = () => {
     var width = checkScreen();
+    console.log(width);
 
     if (width > 800) {
         return (
