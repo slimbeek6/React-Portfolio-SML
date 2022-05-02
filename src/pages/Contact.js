@@ -48,7 +48,7 @@ const Contact = () => {
 
                             <div class="col-3" style={{background: "none"}}>
                                 <a href="https://www.hackerrank.com/shaun_limbeek">
-                                    <img src="../assets/HR-logo.png" alt="HackerRank logo" class="contactImg" />
+                                    <img src="../assets/HR-Logo.png" alt="HackerRank logo" class="contactImg" />
                                 </a>
                             </div>
                         </div>
